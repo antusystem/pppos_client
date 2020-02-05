@@ -1,0 +1,471 @@
+In archive /home/jose/eclipse-workspace/pppos_client/build/modem/libmodem.a:
+
+esp_modem_dce_service.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.esp_modem_dce_handle_response_default 00000010  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.esp_modem_dce_sync 00000028  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.esp_modem_dce_echo 00000040  00000000  00000000  0000006c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.esp_modem_dce_store_profile 00000028  00000000  00000000  000000ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.esp_modem_dce_set_flow_ctrl 00000038  00000000  00000000  000000d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.esp_modem_dce_define_pdp_context 00000038  00000000  00000000  0000010c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.esp_modem_dce_hang_up 0000002c  00000000  00000000  00000144  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text         00000000  00000000  00000000  00000170  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  8 .data         00000000  00000000  00000000  00000170  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  9 .bss          00000000  00000000  00000000  00000170  2**0
+                  ALLOC
+ 10 .rodata.str1.4 0000023a  00000000  00000000  00000170  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 11 .text.esp_modem_dce_handle_response_default 00000044  00000000  00000000  000003ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text.esp_modem_dce_sync 0000006c  00000000  00000000  000003f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.esp_modem_dce_echo 000000cc  00000000  00000000  0000045c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.esp_modem_dce_store_profile 0000006c  00000000  00000000  00000528  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.esp_modem_dce_set_flow_ctrl 000000b0  00000000  00000000  00000594  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.esp_modem_dce_define_pdp_context 000000b0  00000000  00000000  00000644  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.esp_modem_dce_hang_up 0000006c  00000000  00000000  000006f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .rodata.__FUNCTION__$6898 00000016  00000000  00000000  00000760  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 19 .rodata.__FUNCTION__$6892 00000021  00000000  00000000  00000778  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 20 .rodata.__FUNCTION__$6881 0000001c  00000000  00000000  0000079c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 21 .rodata.__FUNCTION__$6872 0000001c  00000000  00000000  000007b8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 22 .rodata.__FUNCTION__$6866 00000013  00000000  00000000  000007d4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 23 .rodata.__FUNCTION__$6859 00000013  00000000  00000000  000007e8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 24 .debug_frame  000000b8  00000000  00000000  000007fc  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 25 .debug_info   00000e0d  00000000  00000000  000008b4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 26 .debug_abbrev 0000020a  00000000  00000000  000016c1  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 27 .debug_loc    000003b0  00000000  00000000  000018cb  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 28 .debug_aranges 00000050  00000000  00000000  00001c7b  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 29 .debug_ranges 00000040  00000000  00000000  00001ccb  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 30 .debug_line   00000562  00000000  00000000  00001d0b  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 31 .debug_str    00000541  00000000  00000000  0000226d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 32 .comment      0000003b  00000000  00000000  000027ae  2**0
+                  CONTENTS, READONLY
+ 33 .xtensa.info  00000038  00000000  00000000  000027e9  2**0
+                  CONTENTS, READONLY
+ 34 .xt.lit       00000038  00000000  00000000  00002821  2**0
+                  CONTENTS, RELOC, READONLY
+ 35 .xt.prop      00000300  00000000  00000000  00002859  2**0
+                  CONTENTS, RELOC, READONLY
+
+esp_modem.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.on_ppp_notify_phase 00000014  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.esp_handle_uart_data 0000000c  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.esp_dte_handle_line 0000003c  00000000  00000000  00000054  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.esp_handle_uart_pattern 00000038  00000000  00000000  00000090  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.uart_event_task_entry 00000070  00000000  00000000  000000c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.esp_modem_dte_deinit 00000018  00000000  00000000  00000138  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.esp_modem_dte_process_cmd_done 00000004  00000000  00000000  00000150  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.esp_modem_dte_change_mode 00000050  00000000  00000000  00000154  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.esp_modem_dte_send_data 00000018  00000000  00000000  000001a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.esp_modem_dte_send_cmd 0000003c  00000000  00000000  000001bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.esp_modem_dte_send_wait 00000074  00000000  00000000  000001f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.on_ppp_status_changed 000000a8  00000000  00000000  0000026c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.esp_modem_dte_init 000000f8  00000000  00000000  00000314  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.esp_modem_add_event_handler 00000008  00000000  00000000  0000040c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.esp_modem_remove_event_handler 00000008  00000000  00000000  00000414  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.esp_modem_setup_ppp 00000088  00000000  00000000  0000041c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.esp_modem_exit_ppp 0000003c  00000000  00000000  000004a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text         00000000  00000000  00000000  000004e0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 18 .data         00000000  00000000  00000000  000004e0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 19 .bss          00000000  00000000  00000000  000004e0  2**0
+                  ALLOC
+ 20 .text.pppos_low_level_output 00000012  00000000  00000000  000004e0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 21 .rodata.str1.4 00000ac0  00000000  00000000  000004f4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 22 .text.on_ppp_notify_phase 00000034  00000000  00000000  00000fb4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .rodata.on_ppp_notify_phase 00000034  00000000  00000000  00000fe8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 24 .text.esp_handle_uart_data 0000003b  00000000  00000000  0000101c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.esp_dte_handle_line 000000b8  00000000  00000000  00001058  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.esp_handle_uart_pattern 00000098  00000000  00000000  00001110  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.uart_event_task_entry 0000011b  00000000  00000000  000011a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .rodata.uart_event_task_entry 00000020  00000000  00000000  000012c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 29 .text.esp_modem_dte_deinit 00000045  00000000  00000000  000012e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .text.esp_modem_dte_process_cmd_done 00000024  00000000  00000000  0000132c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .text.esp_modem_dte_change_mode 00000124  00000000  00000000  00001350  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text.esp_modem_dte_send_data 00000041  00000000  00000000  00001474  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text.esp_modem_dte_send_cmd 000000c6  00000000  00000000  000014b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .text.esp_modem_dte_send_wait 00000178  00000000  00000000  00001580  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .text.on_ppp_status_changed 000001dc  00000000  00000000  000016f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .rodata.on_ppp_status_changed 00000034  00000000  00000000  000018d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 37 .text.esp_modem_dte_init 00000310  00000000  00000000  00001908  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .text.esp_modem_add_event_handler 00000020  00000000  00000000  00001c18  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .text.esp_modem_remove_event_handler 0000001d  00000000  00000000  00001c38  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .text.esp_modem_setup_ppp 00000198  00000000  00000000  00001c58  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 41 .text.esp_modem_exit_ppp 000000ca  00000000  00000000  00001df0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 42 .rodata.__FUNCTION__$9275 00000013  00000000  00000000  00001ebc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 43 .rodata.__FUNCTION__$9266 00000014  00000000  00000000  00001ed0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 44 .rodata.__FUNCTION__$9125 00000017  00000000  00000000  00001ee4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 45 .rodata.__FUNCTION__$9135 00000018  00000000  00000000  00001efc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 46 .rodata.__FUNCTION__$9147 00000018  00000000  00000000  00001f14  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 47 .rodata.__FUNCTION__$9162 0000001a  00000000  00000000  00001f2c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 48 .rodata.__FUNCTION__$9090 00000014  00000000  00000000  00001f48  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 49 .rodata.__FUNCTION__$9188 00000013  00000000  00000000  00001f5c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 50 .data.ESP_MODEM_EVENT 00000004  00000000  00000000  00001f70  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 51 .debug_frame  000001c0  00000000  00000000  00001f74  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 52 .debug_info   00003a6f  00000000  00000000  00002134  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 53 .debug_abbrev 000004af  00000000  00000000  00005ba3  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 54 .debug_loc    00000c71  00000000  00000000  00006052  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 55 .debug_aranges 000000a8  00000000  00000000  00006cc3  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 56 .debug_ranges 00000098  00000000  00000000  00006d6b  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 57 .debug_line   00000f9e  00000000  00000000  00006e03  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 58 .debug_str    0000199c  00000000  00000000  00007da1  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 59 .comment      0000003b  00000000  00000000  0000973d  2**0
+                  CONTENTS, READONLY
+ 60 .xtensa.info  00000038  00000000  00000000  00009778  2**0
+                  CONTENTS, READONLY
+ 61 .xt.lit       00000088  00000000  00000000  000097b0  2**0
+                  CONTENTS, RELOC, READONLY
+ 62 .xt.prop      00000a98  00000000  00000000  00009838  2**0
+                  CONTENTS, RELOC, READONLY
+
+sim800.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.sim800_power_down 00000028  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.sim800_set_working_mode 00000054  00000000  00000000  0000005c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.sim800_get_battery_status 00000028  00000000  00000000  000000b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.sim800_get_signal_quality 00000028  00000000  00000000  000000d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.sim800_get_module_name 00000028  00000000  00000000  00000100  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.sim800_get_imei_number 00000028  00000000  00000000  00000128  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.sim800_get_imsi_number 00000028  00000000  00000000  00000150  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.sim800_get_operator_name 0000002c  00000000  00000000  00000178  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.sim800_deinit 00000004  00000000  00000000  000001a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.sim800_handle_power_down 00000008  00000000  00000000  000001a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.sim800_handle_atd_ppp 00000010  00000000  00000000  000001b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.sim800_handle_exit_data_mode 00000018  00000000  00000000  000001c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.sim800_handle_cbc 00000020  00000000  00000000  000001d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.sim800_handle_csq 00000020  00000000  00000000  000001f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.sim800_handle_cgmm 00000018  00000000  00000000  00000218  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.sim800_handle_cgsn 00000018  00000000  00000000  00000230  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.sim800_handle_cimi 00000018  00000000  00000000  00000248  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal.sim800_handle_cops 0000003c  00000000  00000000  00000260  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal.sim800_init 000000b4  00000000  00000000  0000029c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text         00000000  00000000  00000000  00000350  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 20 .data         00000000  00000000  00000000  00000350  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 21 .bss          00000000  00000000  00000000  00000350  2**0
+                  ALLOC
+ 22 .rodata.str1.4 000004ac  00000000  00000000  00000350  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 23 .text.sim800_power_down 0000006c  00000000  00000000  000007fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.sim800_set_working_mode 0000010a  00000000  00000000  00000868  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.sim800_get_battery_status 0000007a  00000000  00000000  00000974  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.sim800_get_signal_quality 00000078  00000000  00000000  000009f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.sim800_get_module_name 0000006c  00000000  00000000  00000a68  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .text.sim800_get_imei_number 0000006c  00000000  00000000  00000ad4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text.sim800_get_imsi_number 0000006c  00000000  00000000  00000b40  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .text.sim800_get_operator_name 0000006c  00000000  00000000  00000bac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .text.sim800_deinit 0000001a  00000000  00000000  00000c18  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text.sim800_handle_power_down 00000025  00000000  00000000  00000c34  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text.sim800_handle_atd_ppp 00000044  00000000  00000000  00000c5c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .text.sim800_handle_exit_data_mode 00000064  00000000  00000000  00000ca0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .text.sim800_handle_cbc 0000006d  00000000  00000000  00000d04  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .text.sim800_handle_csq 0000006c  00000000  00000000  00000d74  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .text.sim800_handle_cgmm 0000008a  00000000  00000000  00000de0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .text.sim800_handle_cgsn 00000086  00000000  00000000  00000e6c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .text.sim800_handle_cimi 0000008a  00000000  00000000  00000ef4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .text.sim800_handle_cops 00000102  00000000  00000000  00000f80  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 41 .text.sim800_init 000001d6  00000000  00000000  00001084  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 42 .rodata.__FUNCTION__$7790 00000019  00000000  00000000  0000125c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 43 .rodata.__FUNCTION__$7784 00000017  00000000  00000000  00001278  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 44 .rodata.__FUNCTION__$7778 00000017  00000000  00000000  00001290  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 45 .rodata.__FUNCTION__$7772 00000017  00000000  00000000  000012a8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 46 .rodata.__FUNCTION__$7736 0000001a  00000000  00000000  000012c0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 47 .rodata.__FUNCTION__$7749 0000001a  00000000  00000000  000012dc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 48 .rodata.__FUNCTION__$7757 00000018  00000000  00000000  000012f8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 49 .rodata.__FUNCTION__$7766 00000012  00000000  00000000  00001310  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 50 .rodata.__FUNCTION__$7801 0000000c  00000000  00000000  00001324  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 51 .debug_frame  000001d8  00000000  00000000  00001330  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 52 .debug_info   00001e8b  00000000  00000000  00001508  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 53 .debug_abbrev 0000031f  00000000  00000000  00003393  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 54 .debug_loc    000015d0  00000000  00000000  000036b2  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 55 .debug_aranges 000000b0  00000000  00000000  00004c82  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 56 .debug_ranges 00000178  00000000  00000000  00004d32  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 57 .debug_line   00000bbe  00000000  00000000  00004eaa  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 58 .debug_str    000006f3  00000000  00000000  00005a68  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 59 .comment      0000003b  00000000  00000000  0000615b  2**0
+                  CONTENTS, READONLY
+ 60 .xtensa.info  00000038  00000000  00000000  00006196  2**0
+                  CONTENTS, READONLY
+ 61 .xt.lit       00000098  00000000  00000000  000061ce  2**0
+                  CONTENTS, RELOC, READONLY
+ 62 .xt.prop      000009a8  00000000  00000000  00006266  2**0
+                  CONTENTS, RELOC, READONLY
+
+bg96.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.bg96_power_down 00000028  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.bg96_set_working_mode 00000054  00000000  00000000  0000005c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.bg96_get_battery_status 00000028  00000000  00000000  000000b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.bg96_get_signal_quality 00000028  00000000  00000000  000000d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.bg96_get_module_name 00000028  00000000  00000000  00000100  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.bg96_get_imei_number 00000028  00000000  00000000  00000128  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.bg96_get_imsi_number 00000028  00000000  00000000  00000150  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.bg96_get_operator_name 0000002c  00000000  00000000  00000178  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.bg96_deinit 00000004  00000000  00000000  000001a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.bg96_handle_power_down 00000010  00000000  00000000  000001a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.bg96_handle_atd_ppp 00000010  00000000  00000000  000001b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.bg96_handle_exit_data_mode 00000018  00000000  00000000  000001c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.bg96_handle_cbc 00000020  00000000  00000000  000001e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.bg96_handle_csq 00000020  00000000  00000000  00000200  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.bg96_handle_cgmm 00000018  00000000  00000000  00000220  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.bg96_handle_cgsn 00000018  00000000  00000000  00000238  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.bg96_handle_cimi 00000018  00000000  00000000  00000250  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal.bg96_handle_cops 0000003c  00000000  00000000  00000268  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal.bg96_init 000000b4  00000000  00000000  000002a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text         00000000  00000000  00000000  00000358  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 20 .data         00000000  00000000  00000000  00000358  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 21 .bss          00000000  00000000  00000000  00000358  2**0
+                  ALLOC
+ 22 .rodata.str1.4 000004b4  00000000  00000000  00000358  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 23 .text.bg96_power_down 0000006c  00000000  00000000  0000080c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.bg96_set_working_mode 0000010a  00000000  00000000  00000878  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.bg96_get_battery_status 0000007a  00000000  00000000  00000984  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.bg96_get_signal_quality 00000078  00000000  00000000  00000a00  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.bg96_get_module_name 0000006c  00000000  00000000  00000a78  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .text.bg96_get_imei_number 0000006c  00000000  00000000  00000ae4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text.bg96_get_imsi_number 0000006c  00000000  00000000  00000b50  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .text.bg96_get_operator_name 0000006c  00000000  00000000  00000bbc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .text.bg96_deinit 0000001a  00000000  00000000  00000c28  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text.bg96_handle_power_down 00000038  00000000  00000000  00000c44  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text.bg96_handle_atd_ppp 00000044  00000000  00000000  00000c7c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .text.bg96_handle_exit_data_mode 00000064  00000000  00000000  00000cc0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .text.bg96_handle_cbc 0000006d  00000000  00000000  00000d24  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .text.bg96_handle_csq 0000006c  00000000  00000000  00000d94  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .text.bg96_handle_cgmm 0000008a  00000000  00000000  00000e00  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .text.bg96_handle_cgsn 00000086  00000000  00000000  00000e8c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .text.bg96_handle_cimi 0000008a  00000000  00000000  00000f14  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .text.bg96_handle_cops 00000102  00000000  00000000  00000fa0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 41 .text.bg96_init 000001d6  00000000  00000000  000010a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 42 .rodata.__FUNCTION__$7790 00000017  00000000  00000000  0000127c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 43 .rodata.__FUNCTION__$7784 00000015  00000000  00000000  00001294  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 44 .rodata.__FUNCTION__$7778 00000015  00000000  00000000  000012ac  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 45 .rodata.__FUNCTION__$7772 00000015  00000000  00000000  000012c4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 46 .rodata.__FUNCTION__$7736 00000018  00000000  00000000  000012dc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 47 .rodata.__FUNCTION__$7749 00000018  00000000  00000000  000012f4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 48 .rodata.__FUNCTION__$7757 00000016  00000000  00000000  0000130c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 49 .rodata.__FUNCTION__$7766 00000010  00000000  00000000  00001324  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 50 .rodata.__FUNCTION__$7801 0000000a  00000000  00000000  00001334  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 51 .debug_frame  000001d8  00000000  00000000  00001340  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 52 .debug_info   00001e9a  00000000  00000000  00001518  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 53 .debug_abbrev 0000031f  00000000  00000000  000033b2  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 54 .debug_loc    00001615  00000000  00000000  000036d1  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 55 .debug_aranges 000000b0  00000000  00000000  00004ce6  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 56 .debug_ranges 00000178  00000000  00000000  00004d96  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 57 .debug_line   00000bc6  00000000  00000000  00004f0e  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 58 .debug_str    000006c7  00000000  00000000  00005ad4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 59 .comment      0000003b  00000000  00000000  0000619b  2**0
+                  CONTENTS, READONLY
+ 60 .xtensa.info  00000038  00000000  00000000  000061d6  2**0
+                  CONTENTS, READONLY
+ 61 .xt.lit       00000098  00000000  00000000  0000620e  2**0
+                  CONTENTS, RELOC, READONLY
+ 62 .xt.prop      000009c0  00000000  00000000  000062a6  2**0
+                  CONTENTS, RELOC, READONLY
